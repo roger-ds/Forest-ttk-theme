@@ -301,6 +301,11 @@ notebook.add(tab_3, text="Tab 3")
 
 notebook.pack(expand=True, fill="both", padx=5, pady=5)
 
+# Sizegrip
+sizegrip = ttk.Sizegrip(root)
+sizegrip.grid(row=100, column=100, padx=(0, 5), pady=(0, 5))
+
+
 
 # Center the window, and set minsize
 root.update()
